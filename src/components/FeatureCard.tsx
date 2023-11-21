@@ -11,7 +11,7 @@ interface FeatureCardProps {
   index: number;
 }
 
-const FeatureCard = ({ id, icon, title, content, index }: FeatureCardProps) => {
+const FeatureCard = ({ icon, title, content, index }: FeatureCardProps) => {
   return (
     <div
       className={`flex flex-row p-6 rounded-[20px]
